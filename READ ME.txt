@@ -1,0 +1,53 @@
+Project Link: https://www.codecademy.com/practice/projects/world-populations-sql-practice-ii
+
+Prerequisites
+1.
+In order to complete this project, you should have completed the Learn SQL Manipulation, Queries, Aggregate Functions, and Multiple Tables lessons in our Learn SQL course.
+
+Project Requirements
+2.
+In this project, you’ll answer questions using a database of world population by country.
+
+There are two tables:
+
+countries
+Column	Type	Notes
+id	INTEGER	Primary Key
+name	TEXT	
+continent	TEXT	
+population_years
+Column	Type	Notes
+id	INTEGER	Primary Key
+population	NUMBER	(in millions)
+year	NUMBER	
+country_id	INTEGER	Foreign Key
+Refer to this schema as you write queries to the database.
+
+When you finish this project, you should be able to answer each the questions that follow using a single SQL query.
+
+3.
+How many entries in the countries table are from Africa?
+
+4.
+What was the total population of the continent of Oceania in 2005?
+
+5.
+What is the average population of countries in South America in 2003?
+
+6.
+What country had the smallest population in 2007?
+
+7.
+What is the average population of Poland during the time period covered by this dataset?
+
+8.
+How many countries have the word “The” in their name?
+
+9.
+What was the total population of each continent in 2010?
+
+Solution
+10.
+Great work! Visit our forums to compare your project to our sample solution code. You can also learn how to host your own solution on GitHub so you can share it with other learners! Your solution might look different from ours, and that’s okay! There are multiple ways to solve these projects, and you’ll learn more by seeing others’ code.
+
+To experiment with the solution code, open it in DB Browser if you are working on your own computer, or you can copy and paste the text from the .sql file into the SQL code editor here in the project.
